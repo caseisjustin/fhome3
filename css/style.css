@@ -14,6 +14,9 @@ a{
     src: url('Roboto-Regular.ttf') format('truetype');
 }
 
+
+/* HEADER */
+
 header{
     display: flex;
     padding: 30px 50px;
@@ -63,13 +66,17 @@ header ul{
     border: none;
 }
 
-main{
-    padding: 30px 50px;
-}
+
+
+
+
+/* ========= MAIN =========== */
+
 
 .headsection{
     display: flex;
     justify-content: space-between;
+    padding: 50px;
 }
 
 .articles{
@@ -113,3 +120,42 @@ main{
     font-size: 15px;
     line-height: 25px;
 }
+
+
+
+
+
+/* COMPANIES RELATED */
+
+.companies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 60px 50px;
+    background-color: #FF9C7D;
+}
+
+.companies_heading{
+    display: flex;
+    text-align: center;
+}
+
+.companies_heading h3{
+    font-weight: 600;
+    font-size: 45px;
+    width: 720px;
+    line-height: 60px;
+}
+.companies_logos{
+    width: 100%;
+}
+.companies_logos ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* INFO ABOUT progress */
