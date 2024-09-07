@@ -2,4 +2,71 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', Fallback, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face{
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.ttf') format('truetype');
+}
+
+header{
+    display: flex;
+    padding: 30px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .directions{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.directions ul li a{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.auth{
+    display: flex;
+    gap: 1rem;
+}
+
+.auth button{
+    width: 120px;
+    height: 45px;
+}
+
+.loginbtn{
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    font-weight: 600;
+}
+
+.tfreebtn{
+    background-color: #FF6336;
+    color: white;
+    border: none;
+}
+
+main{
+    padding: 30px 50px;
+}
+
+.headsection{
+    display: flex;
 }
