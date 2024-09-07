@@ -257,3 +257,136 @@ main{
     font-size: 18px;
     line-height: 25px;
 }
+
+
+
+
+/* ========= BOOSTING INFO ========== */
+
+.learn_to_boost{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+    align-items: center;
+}
+
+.learn_to_boost_heading{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.boosters{
+    display: flex;
+    gap: 2rem;
+}
+
+.booster{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 439.98px;
+    gap: 2rem;
+}
+
+.booster img{
+    width: 145px;
+}
+
+.booster strong{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.booster p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.booster a{
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: underline 0.1px gray;
+}
+
+
+
+
+
+/* ========== ACHIEVEMENTS ========== */
+
+/* ========== AUTHOR ========== */
+.author{
+    display: flex;
+    padding: 50px 50px;
+    background-color: #C9E8F2;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.author_desc_text{
+    font-size: 30px;
+    line-height: 40px;
+    width: 1090px;
+    margin-bottom: 20px;
+}
+
+.author_name {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.author_desc b{
+    font-size: 25px;
+}
+
+/* ========= Achievements info ========= */
+
+.achievements_info {
+    display: flex;
+    padding: 50px 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #DABC98;
+}
+
+.achievements_info_desc{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    width: 100%;
+}
+
+.achievements_info_desc b{
+    font-size: 35px;
+    width: 551px;
+}
+
+.achievements_info_rate{
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    padding: 40px 70px;
+    border-left: 1px solid black;
+}
+
+.achievements_info_rate div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.achievements_info_rate_img1{
+    width: 35px;
+}
+
+.achievements_info_rate p{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+
+
+/* ================ JOIN US =============== */
+
