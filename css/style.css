@@ -388,5 +388,168 @@ main{
 
 
 
+
+
 /* ================ JOIN US =============== */
 
+.join_us{
+    display: flex;
+    padding: 50px 50px;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+    gap: 1rem;
+}
+
+.join_us strong{
+    font-size: 65px;
+    line-height: 75px;
+    width: 891px;
+    text-align: center;
+}
+
+.join_us p{
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    width: 619px;
+}
+
+.join_us button{
+    width: 193px;
+    height: 45px;
+    color: white;
+    background-color: #FF6336;
+    border: none;
+}
+
+
+
+
+
+
+/* =================== call client to us =================== */
+
+.call_client_to_us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 603px;
+    gap: 3rem;
+    background-color: #FF9C7D;
+}
+
+.call_client_to_us b{
+    font-size: 65px;
+    line-height: 75px;
+    width: 894px;
+    text-align: center;
+}
+
+.call_client_to_us p{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.call_client_to_us button{
+    width: 160px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
+/* ================= FOOTER ================ */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 70px 50px 30px 50px;
+    background-color: #EEEEEE;
+}
+
+.navigations{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 40px 0;
+    padding-bottom: 50px;
+}
+
+.navigations_main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.navigations_main b{
+    font-size: 40px;
+}
+
+.navigations_main img{
+    width: 100px;
+    height: 42ppx;
+}
+
+.navigations_main .navigations_main_img1{
+    width: 340px;
+    height: 340px;
+}
+
+.navigations_main p{
+    font-size: 20px;
+    line-height: 30px;
+    width: 340px;
+}
+
+.navigations_main a{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sub_navigators{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sub_navigators ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    border-top: gray solid 1px;
+    padding: 30px 0;
+}
+
+.copyright_desc{
+    display: flex;
+    gap: 10px;
+}
+
+.copyright_desc b{
+    font-size: 21px;
+}
+
+.copyright_desc p{
+    font-size: 12px;
+    line-height: 15px;
+    width: 310px;
+}
+
+.c_year p{
+    font-size: 12px;
+    line-height: 15px;
+}
