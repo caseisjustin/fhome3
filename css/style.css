@@ -206,3 +206,54 @@ main{
 }
 
 
+
+
+
+/* ========== features =========== */
+
+.features{
+    display: flex;
+    padding: 50px 50px;
+    background-color: #FFF8E4;
+    margin: 70px 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features_heading{
+    font-size: 50px;
+    font-weight: 600;
+    padding: 30px;
+}
+
+.features_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.features_cards_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+    width: 330px;
+}
+
+.features_cards_card img{
+    height: 120px;
+    width: 160px;
+}
+
+.features_cards_card strong{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.features_cards_card p{
+    font-size: 18px;
+    line-height: 25px;
+}
